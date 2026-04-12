@@ -1,7 +1,7 @@
 lockfileVersion: '9.0'
 
 settings:
-  autoInstallPeers: true
+  autoInstallPeers: false
   excludeLinksFromLockfile: false
 
 importers:
@@ -47,10 +47,10 @@ importers:
     devDependencies:
       '@angular-devkit/build-angular':
         specifier: 22.0.0-next.5
-        version: 22.0.0-next.5(@angular/compiler-cli@in-existing-linked-by-bazel)(@angular/compiler@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/platform-browser@in-existing-linked-by-bazel)(@angular/ssr@22.0.0-next.5(@angular/common@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/router@in-existing-linked-by-bazel))(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@types/node@20.19.39)(jiti@2.6.1)(typescript@6.0.2)
+        version: 22.0.0-next.5(@angular/compiler-cli@in-existing-linked-by-bazel)(@angular/compiler@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/platform-browser@in-existing-linked-by-bazel)(@angular/ssr@22.0.0-next.5(@angular/common@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/router@in-existing-linked-by-bazel))(@types/node@20.19.39)(jiti@2.6.1)(typescript@6.0.2)
       '@angular/build':
         specifier: 22.0.0-next.5
-        version: 22.0.0-next.5(@angular/compiler-cli@in-existing-linked-by-bazel)(@angular/compiler@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/platform-browser@in-existing-linked-by-bazel)(@angular/ssr@22.0.0-next.5(@angular/common@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/router@in-existing-linked-by-bazel))(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@types/node@20.19.39)(istanbul-lib-instrument@6.0.3)(jiti@2.6.1)(less@4.6.4)(postcss@8.5.8)(terser@5.46.1)(tslib@2.8.1)(typescript@6.0.2)
+        version: 22.0.0-next.5(@angular/compiler-cli@in-existing-linked-by-bazel)(@angular/compiler@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/platform-browser@in-existing-linked-by-bazel)(@angular/ssr@22.0.0-next.5(@angular/common@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/router@in-existing-linked-by-bazel))(@types/node@20.19.39)(istanbul-lib-instrument@6.0.3)(jiti@2.6.1)(less@4.6.4)(postcss@8.5.8)(terser@5.46.1)(tslib@2.8.1)(typescript@6.0.2)
       '@angular/cli':
         specifier: 22.0.0-next.5
         version: 22.0.0-next.5(@types/node@20.19.39)
@@ -793,15 +793,6 @@ packages:
     resolution: {integrity: sha512-dDlz3W405VMFO4w5kIP9DOmELBcvFQGmLoKSdIRstBDubKFYwaNHV1NnlzMCQpXQFGWVALmeMORAuiLx18AvZQ==}
     engines: {node: '>=14.17.0'}
 
-  '@emnapi/core@1.9.2':
-    resolution: {integrity: sha512-UC+ZhH3XtczQYfOlu3lNEkdW/p4dsJ1r/bP7H8+rhao3TTTMO1ATq/4DdIi23XuGoFY+Cz0JmCbdVl0hz9jZcA==}
-
-  '@emnapi/runtime@1.9.2':
-    resolution: {integrity: sha512-3U4+MIWHImeyu1wnmVygh5WlgfYDtyf0k8AbLhMFxOipihf6nrWC4syIm/SwEeec0mNSafiiNnMJwbza/Is6Lw==}
-
-  '@emnapi/wasi-threads@1.2.1':
-    resolution: {integrity: sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w==}
-
   '@esbuild/aix-ppc64@0.27.3':
     resolution: {integrity: sha512-9fJMTNFTWZMh5qwrBItuziu834eOCUcEqymSH7pY+zoMVEZg3gcPuBNxH1EvfVYe9h0x/Ptw8KBzv7qxb7l8dg==}
     engines: {node: '>=18'}
@@ -965,8 +956,8 @@ packages:
   '@harperfast/extended-iterable@1.0.3':
     resolution: {integrity: sha512-sSAYhQca3rDWtQUHSAPeO7axFIUJOI6hn1gjRC5APVE1a90tuyT8f5WIgRsFhhWA7htNkju2veB9eWL6YHi/Lw==}
 
-  '@hono/node-server@1.19.12':
-    resolution: {integrity: sha512-txsUW4SQ1iilgE0l9/e9VQWmELXifEFvmdA1j6WFh/aFPj99hIntrSsq/if0UWyGVkmrRPKA1wCeP+UCr1B9Uw==}
+  '@hono/node-server@1.19.13':
+    resolution: {integrity: sha512-TsQLe4i2gvoTtrHje625ngThGBySOgSK3Xo2XRYOdqGN1teR8+I7vchQC46uLJi8OF62YTYA3AhSpumtkhsaKQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: ^4
@@ -1308,7 +1299,6 @@ packages:
     engines: {node: '>=18'}
     peerDependencies:
       '@cfworker/json-schema': ^4.1.1
-      zod: ^3.25 || ^4.0
     peerDependenciesMeta:
       '@cfworker/json-schema':
         optional: true
@@ -2107,19 +2097,9 @@ packages:
 
   ajv-formats@2.1.1:
     resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
-    peerDependencies:
-      ajv: ^8.0.0
-    peerDependenciesMeta:
-      ajv:
-        optional: true
 
   ajv-formats@3.0.1:
     resolution: {integrity: sha512-8iUql50EUR+uUcdRQ3HDqa6EVyo3docL8g5WJ3FNcWmu62IbkGUue/pEyLBW8VGKKucTPgqeks4fIU1DA4yowQ==}
-    peerDependencies:
-      ajv: ^8.0.0
-    peerDependenciesMeta:
-      ajv:
-        optional: true
 
   ajv-keywords@5.1.0:
     resolution: {integrity: sha512-YCS/JNFAUyr5vAuhk1DWm1CBxRHW9LbJ2ozWeemrIqpbsqKjHVxYPyi5GC0rjZIT5JxJ3virVTS8wk4i/Z+krw==}
@@ -2281,10 +2261,9 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  basic-ftp@5.2.0:
-    resolution: {integrity: sha512-VoMINM2rqJwJgfdHq6RiUudKt2BV+FY5ZFezP/ypmwayk68+NzzAQy4XXLlqsGD4MCzq3DrmNFD/uUmBJuGoXw==}
+  basic-ftp@5.2.2:
+    resolution: {integrity: sha512-1tDrzKsdCg70WGvbFss/ulVAxupNauGnOlgpyjKzeQxzyllBLS0CGLV7tjIXTK3ZQA9/FBEm9qyFFN1bciA6pw==}
     engines: {node: '>=10.0.0'}
-    deprecated: Security vulnerability fixed in 5.2.1, please upgrade
 
   batch@0.6.1:
     resolution: {integrity: sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw==}
@@ -2951,8 +2930,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hono@4.12.11:
-    resolution: {integrity: sha512-r4xbIa3mGGGoH9nN4A14DOg2wx7y2oQyJEb5O57C/xzETG/qx4c7CVDQ5WMeKHZ7ORk2W0hZ/sQKXTav3cmYBA==}
+  hono@4.12.12:
+    resolution: {integrity: sha512-p1JfQMKaceuCbpJKAPKVqyqviZdS0eUxH9v82oWo1kb9xjQ5wA6iP3FNVAPDFlz5/p7d45lO+BpSk1tuSZMF4Q==}
     engines: {node: '>=16.9.0'}
 
   hosted-git-info@9.0.2:
@@ -4652,13 +4631,13 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@angular-devkit/build-angular@22.0.0-next.5(@angular/compiler-cli@in-existing-linked-by-bazel)(@angular/compiler@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/platform-browser@in-existing-linked-by-bazel)(@angular/ssr@22.0.0-next.5(@angular/common@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/router@in-existing-linked-by-bazel))(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@types/node@20.19.39)(jiti@2.6.1)(typescript@6.0.2)':
+  '@angular-devkit/build-angular@22.0.0-next.5(@angular/compiler-cli@in-existing-linked-by-bazel)(@angular/compiler@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/platform-browser@in-existing-linked-by-bazel)(@angular/ssr@22.0.0-next.5(@angular/common@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/router@in-existing-linked-by-bazel))(@types/node@20.19.39)(jiti@2.6.1)(typescript@6.0.2)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2200.0-next.5
-      '@angular-devkit/build-webpack': 0.2200.0-next.5(webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.4))(webpack@5.105.4(esbuild@0.27.3))
+      '@angular-devkit/build-webpack': 0.2200.0-next.5(webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.4(esbuild@0.27.3)))(webpack@5.105.4(esbuild@0.27.3))
       '@angular-devkit/core': 22.0.0-next.5
-      '@angular/build': 22.0.0-next.5(@angular/compiler-cli@in-existing-linked-by-bazel)(@angular/compiler@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/platform-browser@in-existing-linked-by-bazel)(@angular/ssr@22.0.0-next.5(@angular/common@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/router@in-existing-linked-by-bazel))(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@types/node@20.19.39)(istanbul-lib-instrument@6.0.3)(jiti@2.6.1)(less@4.6.4)(postcss@8.5.8)(terser@5.46.1)(tslib@2.8.1)(typescript@6.0.2)
+      '@angular/build': 22.0.0-next.5(@angular/compiler-cli@in-existing-linked-by-bazel)(@angular/compiler@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/platform-browser@in-existing-linked-by-bazel)(@angular/ssr@22.0.0-next.5(@angular/common@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/router@in-existing-linked-by-bazel))(@types/node@20.19.39)(istanbul-lib-instrument@6.0.3)(jiti@2.6.1)(less@4.6.4)(postcss@8.5.8)(terser@5.46.1)(tslib@2.8.1)(typescript@6.0.2)
       '@angular/compiler-cli': link:in-existing-linked-by-bazel
       '@babel/core': 7.29.0
       '@babel/generator': 7.29.1
@@ -4706,7 +4685,7 @@ snapshots:
       typescript: 6.0.2
       webpack: 5.105.4(esbuild@0.27.3)
       webpack-dev-middleware: 8.0.2(tslib@2.8.1)(webpack@5.105.4(esbuild@0.27.3))
-      webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.4)
+      webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.4(esbuild@0.27.3))
       webpack-merge: 6.0.1
       webpack-subresource-integrity: 5.1.0(webpack@5.105.4(esbuild@0.27.3))
     optionalDependencies:
@@ -4739,19 +4718,19 @@ snapshots:
       - webpack-cli
       - yaml
 
-  '@angular-devkit/build-webpack@0.2200.0-next.5(webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.4))(webpack@5.105.4(esbuild@0.27.3))':
+  '@angular-devkit/build-webpack@0.2200.0-next.5(webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.4(esbuild@0.27.3)))(webpack@5.105.4(esbuild@0.27.3))':
     dependencies:
       '@angular-devkit/architect': 0.2200.0-next.5
       rxjs: 7.8.2
       webpack: 5.105.4(esbuild@0.27.3)
-      webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.4)
+      webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.4(esbuild@0.27.3))
     transitivePeerDependencies:
       - chokidar
 
   '@angular-devkit/core@22.0.0-next.5':
     dependencies:
       ajv: 8.18.0
-      ajv-formats: 3.0.1(ajv@8.18.0)
+      ajv-formats: 3.0.1
       jsonc-parser: 3.3.1
       picomatch: 4.0.4
       rxjs: 7.8.2
@@ -4767,7 +4746,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@angular/build@22.0.0-next.5(@angular/compiler-cli@in-existing-linked-by-bazel)(@angular/compiler@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/platform-browser@in-existing-linked-by-bazel)(@angular/ssr@22.0.0-next.5(@angular/common@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/router@in-existing-linked-by-bazel))(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@types/node@20.19.39)(istanbul-lib-instrument@6.0.3)(jiti@2.6.1)(less@4.6.4)(postcss@8.5.8)(terser@5.46.1)(tslib@2.8.1)(typescript@6.0.2)':
+  '@angular/build@22.0.0-next.5(@angular/compiler-cli@in-existing-linked-by-bazel)(@angular/compiler@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/platform-browser@in-existing-linked-by-bazel)(@angular/ssr@22.0.0-next.5(@angular/common@in-existing-linked-by-bazel)(@angular/core@in-existing-linked-by-bazel)(@angular/router@in-existing-linked-by-bazel))(@types/node@20.19.39)(istanbul-lib-instrument@6.0.3)(jiti@2.6.1)(less@4.6.4)(postcss@8.5.8)(terser@5.46.1)(tslib@2.8.1)(typescript@6.0.2)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2200.0-next.5
@@ -4789,7 +4768,7 @@ snapshots:
       parse5-html-rewriting-stream: 8.0.0
       picomatch: 4.0.4
       piscina: 5.1.4
-      rolldown: 1.0.0-rc.12(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
+      rolldown: 1.0.0-rc.12
       sass: 1.98.0
       semver: 7.7.4
       source-map-support: 0.5.21
@@ -4837,7 +4816,7 @@ snapshots:
       '@angular-devkit/schematics': 22.0.0-next.5
       '@inquirer/prompts': 8.3.2(@types/node@20.19.39)
       '@listr2/prompt-adapter-inquirer': 4.2.2(@inquirer/prompts@8.3.2(@types/node@20.19.39))(@types/node@20.19.39)(listr2@10.2.1)
-      '@modelcontextprotocol/sdk': 1.28.0(zod@4.3.6)
+      '@modelcontextprotocol/sdk': 1.28.0
       '@schematics/angular': 22.0.0-next.5
       '@yarnpkg/lockfile': 1.1.0
       algoliasearch: 5.50.0
@@ -5539,22 +5518,6 @@ snapshots:
 
   '@discoveryjs/json-ext@1.0.0': {}
 
-  '@emnapi/core@1.9.2':
-    dependencies:
-      '@emnapi/wasi-threads': 1.2.1
-      tslib: 2.8.1
-    optional: true
-
-  '@emnapi/runtime@1.9.2':
-    dependencies:
-      tslib: 2.8.1
-    optional: true
-
-  '@emnapi/wasi-threads@1.2.1':
-    dependencies:
-      tslib: 2.8.1
-    optional: true
-
   '@esbuild/aix-ppc64@0.27.3':
     optional: true
 
@@ -5638,9 +5601,9 @@ snapshots:
   '@harperfast/extended-iterable@1.0.3':
     optional: true
 
-  '@hono/node-server@1.19.12(hono@4.12.11)':
+  '@hono/node-server@1.19.13(hono@4.12.12)':
     dependencies:
-      hono: 4.12.11
+      hono: 4.12.12
 
   '@inquirer/ansi@2.0.4': {}
 
@@ -5956,11 +5919,11 @@ snapshots:
   '@lmdb/lmdb-win32-x64@3.5.2':
     optional: true
 
-  '@modelcontextprotocol/sdk@1.28.0(zod@4.3.6)':
+  '@modelcontextprotocol/sdk@1.28.0':
     dependencies:
-      '@hono/node-server': 1.19.12(hono@4.12.11)
+      '@hono/node-server': 1.19.13(hono@4.12.12)
       ajv: 8.18.0
-      ajv-formats: 3.0.1(ajv@8.18.0)
+      ajv-formats: 3.0.1
       content-type: 1.0.5
       cors: 2.8.6
       cross-spawn: 7.0.6
@@ -5968,7 +5931,7 @@ snapshots:
       eventsource-parser: 3.0.6
       express: 5.2.1
       express-rate-limit: 8.3.2(express@5.2.1)
-      hono: 4.12.11
+      hono: 4.12.12
       jose: 6.2.2
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
@@ -6068,10 +6031,8 @@ snapshots:
       '@napi-rs/nice-win32-x64-msvc': 1.1.1
     optional: true
 
-  '@napi-rs/wasm-runtime@1.1.2(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)':
+  '@napi-rs/wasm-runtime@1.1.2':
     dependencies:
-      '@emnapi/core': 1.9.2
-      '@emnapi/runtime': 1.9.2
       '@tybys/wasm-util': 0.10.1
     optional: true
 
@@ -6345,9 +6306,9 @@ snapshots:
   '@rolldown/binding-openharmony-arm64@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-rc.12(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)':
+  '@rolldown/binding-wasm32-wasi@1.0.0-rc.12':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.2(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
+      '@napi-rs/wasm-runtime': 1.1.2
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -6713,12 +6674,12 @@ snapshots:
 
   agent-base@9.0.0: {}
 
-  ajv-formats@2.1.1(ajv@8.18.0):
-    optionalDependencies:
+  ajv-formats@2.1.1:
+    dependencies:
       ajv: 8.18.0
 
-  ajv-formats@3.0.1(ajv@8.18.0):
-    optionalDependencies:
+  ajv-formats@3.0.1:
+    dependencies:
       ajv: 8.18.0
 
   ajv-keywords@5.1.0(ajv@8.18.0):
@@ -6875,7 +6836,7 @@ snapshots:
 
   baseline-browser-mapping@2.10.16: {}
 
-  basic-ftp@5.2.0: {}
+  basic-ftp@5.2.2: {}
 
   batch@0.6.1: {}
 
@@ -7572,7 +7533,7 @@ snapshots:
 
   get-uri@6.0.5:
     dependencies:
-      basic-ftp: 5.2.0
+      basic-ftp: 5.2.2
       data-uri-to-buffer: 6.0.2
       debug: 4.4.3
     transitivePeerDependencies:
@@ -7612,7 +7573,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.12.11: {}
+  hono@4.12.12: {}
 
   hosted-git-info@9.0.2:
     dependencies:
@@ -8625,7 +8586,7 @@ snapshots:
 
   rfdc@1.4.1: {}
 
-  rolldown@1.0.0-rc.12(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2):
+  rolldown@1.0.0-rc.12:
     dependencies:
       '@oxc-project/types': 0.122.0
       '@rolldown/pluginutils': 1.0.0-rc.12
@@ -8642,7 +8603,7 @@ snapshots:
       '@rolldown/binding-linux-x64-gnu': 1.0.0-rc.12
       '@rolldown/binding-linux-x64-musl': 1.0.0-rc.12
       '@rolldown/binding-openharmony-arm64': 1.0.0-rc.12
-      '@rolldown/binding-wasm32-wasi': 1.0.0-rc.12(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
+      '@rolldown/binding-wasm32-wasi': 1.0.0-rc.12
       '@rolldown/binding-win32-arm64-msvc': 1.0.0-rc.12
       '@rolldown/binding-win32-x64-msvc': 1.0.0-rc.12
     transitivePeerDependencies:
@@ -8724,7 +8685,7 @@ snapshots:
     dependencies:
       '@types/json-schema': 7.0.15
       ajv: 8.18.0
-      ajv-formats: 2.1.1(ajv@8.18.0)
+      ajv-formats: 2.1.1
       ajv-keywords: 5.1.0(ajv@8.18.0)
 
   select-hose@2.0.0: {}
@@ -9042,7 +9003,7 @@ snapshots:
       - bare-abort-controller
       - react-native-b4a
 
-  terser-webpack-plugin@5.4.0(esbuild@0.27.3)(webpack@5.105.4):
+  terser-webpack-plugin@5.4.0(esbuild@0.27.3)(webpack@5.105.4(esbuild@0.27.3)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
@@ -9202,7 +9163,7 @@ snapshots:
 
   webdriver-bidi-protocol@0.4.1: {}
 
-  webpack-dev-middleware@7.4.5(tslib@2.8.1)(webpack@5.105.4):
+  webpack-dev-middleware@7.4.5(tslib@2.8.1)(webpack@5.105.4(esbuild@0.27.3)):
     dependencies:
       colorette: 2.0.20
       memfs: 4.57.1(tslib@2.8.1)
@@ -9227,7 +9188,7 @@ snapshots:
     transitivePeerDependencies:
       - tslib
 
-  webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.4):
+  webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.4(esbuild@0.27.3)):
     dependencies:
       '@types/bonjour': 3.5.13
       '@types/connect-history-api-fallback': 1.5.4
@@ -9255,7 +9216,7 @@ snapshots:
       serve-index: 1.9.2
       sockjs: 0.3.24
       spdy: 4.0.2
-      webpack-dev-middleware: 7.4.5(tslib@2.8.1)(webpack@5.105.4)
+      webpack-dev-middleware: 7.4.5(tslib@2.8.1)(webpack@5.105.4(esbuild@0.27.3))
       ws: 8.20.0
     optionalDependencies:
       webpack: 5.105.4(esbuild@0.27.3)
@@ -9303,7 +9264,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.2
-      terser-webpack-plugin: 5.4.0(esbuild@0.27.3)(webpack@5.105.4)
+      terser-webpack-plugin: 5.4.0(esbuild@0.27.3)(webpack@5.105.4(esbuild@0.27.3))
       watchpack: 2.5.1
       webpack-sources: 3.3.4
     transitivePeerDependencies:
