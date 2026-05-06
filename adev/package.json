@@ -76,7 +76,7 @@
     "karma-coverage": "2.2.1",
     "karma-jasmine": "5.1.0",
     "karma-jasmine-html-reporter": "2.2.0",
-    "marked": "18.0.2",
+    "marked": "18.0.3",
     "mermaid": "11.14.0",
     "ngx-progressbar": "14.0.0",
     "open-in-idx": "0.1.1",
@@ -99,7 +99,7 @@
   "devDependencies": {
     "autoprefixer": "10.5.0",
     "karma": "~6.4.4",
-    "postcss": "8.5.13",
+    "postcss": "8.5.14",
     "tailwindcss": "3.4.19"
   }
 }
