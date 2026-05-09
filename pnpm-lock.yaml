@@ -572,8 +572,8 @@ importers:
         specifier: 2.2.0
         version: 2.2.0(jasmine-core@6.2.0)(karma-jasmine@5.1.0(karma@6.4.4(bufferutil@4.1.0)))(karma@6.4.4(bufferutil@4.1.0))
       marked:
-        specifier: 18.0.3
-        version: 18.0.3
+        specifier: 18.0.2
+        version: 18.0.2
       mermaid:
         specifier: 11.14.0
         version: 11.14.0
@@ -675,8 +675,8 @@ importers:
         specifier: ~29.1.0
         version: 29.1.1
       marked:
-        specifier: ~18.0.0
-        version: 18.0.0
+        specifier: ~18.0.2
+        version: 18.0.2
       mermaid:
         specifier: ^11.0.0
         version: 11.14.0
@@ -1699,7 +1699,7 @@ packages:
         optional: true
 
   '@angular/domino@https://codeload.github.com/angular/domino/tar.gz/928dffb9d9431b2cd2a73d7b940d1575f221e072':
-    resolution: {gitHosted: true, integrity: sha512-kLqqpAWmXwNEicdkKrMuH7/M6+JRVzWsrV9aUovLTi6dNe0P8lyDAjqmEXhMowyaqa1ZXVsh7XE7wz6xPR6L5g==, tarball: https://codeload.github.com/angular/domino/tar.gz/928dffb9d9431b2cd2a73d7b940d1575f221e072}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/angular/domino/tar.gz/928dffb9d9431b2cd2a73d7b940d1575f221e072}
     version: 2.1.6
     engines: {npm: Please use pnpm instead of NPM to install dependencies, pnpm: 10.31.0, yarn: Please use pnpm instead of Yarn to install dependencies}
 
@@ -1714,7 +1714,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
 
   '@angular/ng-dev@https://codeload.github.com/angular/dev-infra-private-ng-dev-builds/tar.gz/df5bcf2c22735628d01f1e9cdb45d336bec4cfdf':
-    resolution: {gitHosted: true, integrity: sha512-fJN+IduwPg4PK2cLL/v1zd2Kfws2KhFpxV/a9PXG/SDj25V4XuB8NKbss80tplCkUX3UbjDg1x+Rp5Nr3JGY0w==, tarball: https://codeload.github.com/angular/dev-infra-private-ng-dev-builds/tar.gz/df5bcf2c22735628d01f1e9cdb45d336bec4cfdf}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/angular/dev-infra-private-ng-dev-builds/tar.gz/df5bcf2c22735628d01f1e9cdb45d336bec4cfdf}
     version: 0.0.0-fcf9aad99710835428e0e9859bf060689045a131
     hasBin: true
 
@@ -9585,13 +9585,8 @@ packages:
     engines: {node: '>= 20'}
     hasBin: true
 
-  marked@18.0.0:
-    resolution: {integrity: sha512-2e7Qiv/HJSXj8rDEpgTvGKsP8yYtI9xXHKDnrftrmnrJPaFNM7VRb2YCzWaX4BP1iCJ/XPduzDJZMFoqTCcIMA==}
-    engines: {node: '>= 20'}
-    hasBin: true
-
-  marked@18.0.3:
-    resolution: {integrity: sha512-7VT90JOkDeaRWpfjOReRGPEKn0ecdARBkDGL+tT1wZY0efPPqkUxLUSmzy/C7TIylQYJC9STISEsCHrqb/7VIA==}
+  marked@18.0.2:
+    resolution: {integrity: sha512-NsmlUYBS/Zg57rgDWMYdnre6OTj4e+qq/JS2ot3KrYLSoHLw+sDu0Nm1ZGpRgYAq6c+b1ekaY5NzVchMCQnzcg==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -22712,9 +22707,7 @@ snapshots:
 
   marked@16.4.2: {}
 
-  marked@18.0.0: {}
-
-  marked@18.0.3: {}
+  marked@18.0.2: {}
 
   math-intrinsics@1.1.0: {}
 
